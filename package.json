@@ -1,0 +1,28 @@
+{
+  "name"   : "flex-splitter-directive-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type"   : "module",
+  "main"   : "./dist/my-lib.umd.cjs",
+  "module" : "./dist/my-lib.js",
+  "files"  : [
+    "dist",
+    "dist/style.css"
+  ],
+  "exports": {
+    ".": {
+      "import"  : "./dist/my-lib.js",
+      "require" : "./dist/my-lib.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev"    : "vite --host --port 3000",
+    "build"  : "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass"      : "^1.65.1",
+    "typescript": "^5.0.2",
+    "vite"      : "^4.4.5"
+  }
+}
