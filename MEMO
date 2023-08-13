@@ -1,10 +1,24 @@
-2011  git clone https://github.com/devg1120/flex-splitter-directive-vite-scss
-2012  cd flex-splitter-directive-vite-scss/
-2013  ls
-2014  npm i
-2015  npm run build
-2016  ls
-2017  cd example/
-2018  npm i
-2019  npm run dev
+git clone https://github.com/devg1120/flex-splitter-directive-vite-scss
+cd flex-splitter-directive-vite-scss/
+
+*** npm install
+npm i
+
+*** run dev
+npm run dev
+open http://127.0.0.1:3000/
+
+*** build
+npm run build
+ls  ./dist
+
+*** run local
+./start_lighttpd.sh
+open http://127.0.0.1:3001/
+
+
+*** example run
+cd example/
+npm i
+npm run dev
 open http://127.0.0.1:3000/

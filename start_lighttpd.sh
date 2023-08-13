@@ -1,4 +1,4 @@
-cd dist/
-lighttpd -D -f ../_lighttpd.conf
+#cd dist/
+lighttpd -D -f ./_lighttpd.conf
 
 
